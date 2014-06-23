@@ -46,6 +46,7 @@ def main():
             pws.append(preppath(joinpath(d, f)))
 
 
+    pws.sort()
     print(pws)
     pws_str = "\n".join(pws)
 
